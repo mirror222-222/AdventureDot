@@ -1,4 +1,13 @@
+body {
+  font-family: "Open Sans";
+  margin: 0;
+}
+
 .clicker {
+  display: flex; // Makes this div a flexbox
+  align-items: center; // This centers things vertically
+  justify-content: center; // This centers things horizontally
+
   background: #002b35;
   height: 50%;
 }
